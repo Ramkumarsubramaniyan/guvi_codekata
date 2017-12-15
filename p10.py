@@ -1,11 +1,9 @@
-num=int(input("Enter the number:"))
+n=int(raw_input("Enter the number"))
+temp=abs(n)
+count=0
+while(temp!=0):
+  temp=int(temp/10)
+  #print(temp)
+  count=count+1
+print (count)
 
-count=1
-while(num!=0):
-    num=int(num/10)
-    if(num!=0):
-        count=count+1
-print(count)
-    
-
-        
