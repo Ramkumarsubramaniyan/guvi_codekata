@@ -6,15 +6,14 @@ def prime(a):
 	return flag
 
 def res(y,z):
-        list=[]
-        for x in range(y+1,z):
+            list=[]
+            for x in range(y+1,z):
             	if(prime(x)==2):
             		list.append(x)
-        for x in range(len(list)):
-                print(list[x])
-        if(len(list)==0):
-                print("no primes")
-           
+            for x in range(len(list)):
+            	print(list[x])
+            if(len(list)==0):
+            	print("no primes")
             		
 m,n=[int(x) for x in input().split(",")]
 if(m>n):
@@ -27,4 +26,3 @@ elif(m<0):
 	res(0,n)
 elif(n<0):
 	res(m,o)
-	
