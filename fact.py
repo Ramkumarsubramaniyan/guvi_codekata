@@ -8,6 +8,6 @@ try:
 			a=a*x
 		print(a)
 	else:
-		print("invalid input")
+		print("Invalid Input")
 except ValueError:
-	print("invalid input")
+	print("Invalid Input")
