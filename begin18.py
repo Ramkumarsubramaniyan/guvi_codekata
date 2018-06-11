@@ -15,9 +15,9 @@ try:
 			rem=int(temp)%10
 			s=s+(rem**size)
 			temp/=10
-		if (s==z):
+		if (s==z and s!=0):
 			print (s)
-	for a in range(n,m+1):
+	for a in range(n+1,m):
 		avag(a)
 except ValueError:
 	print("invalid input")
