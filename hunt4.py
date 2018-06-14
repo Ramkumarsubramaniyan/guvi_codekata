@@ -3,7 +3,7 @@ try:
 	if(n<=0):
 		print("Invalid Input")
 	else:
-		l=list(map(int,raw_input().split(' ')))
+		l=list(map(int,input().split(' ')))
 		if(len(l)!=n):
 			print("Invalid Input")
 		else:
