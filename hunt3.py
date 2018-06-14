@@ -13,7 +13,7 @@ try:
 		res.pop(0)
 		res.sort()
 		if not res:
-			print("'-1'")
+			print("-1")
 		else:
 			print(' '.join(str(p) for p in res))
 except ValueError:
